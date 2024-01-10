@@ -39,5 +39,4 @@ jobs:
         run: deno lint src/index.ts
 
       - name: Run tests
-        run: deno test -A cn2tw('计算机')
-             deno test -A tw2cn('印表機')
+        run: deno test -A src/index.ts
