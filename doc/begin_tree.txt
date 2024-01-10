@@ -1,7 +1,6 @@
 ts_cn_and_tw
 ©¦  .gitignore
 ©¦  deno.json
-©¦  deno.lock
 ©¦  import_map.json
 ©¦  LICENSE
 ©¦  README.md
