@@ -2,9 +2,18 @@
 
 javascript: https://github.com/anqisoft/js_cn_and_tw<br>
 npmjs: https://www.npmjs.com/package/@dishanqian/cn_and_tw
+
+### import
 ``` typescript
 import { cn2tw, tw2cn } from 'https://deno.land/x/cn_and_tw@v0.0.2/index.ts';
 ```
+
+### test
+``` typescript
+['个', '计算机', '天干'].forEach(from => console.log(from, cn2tw(from))));
+['個', '計算機', '天干'].forEach(from => console.log(from, tw2cn(from))));
+```
+
 ## <en_us>
 
 Provides basic functions for bidirectional conversion between Simplified and Traditional Chinese.<br>
