@@ -5,8 +5,8 @@
  * <en_us>
  * Created on Wed Jan 10 2024 07:02:57
  * Feature: Provide the following content,
- *         string, simplified character list SIMPLIFIED_CHINESE_CHARS
- *         string, traditional Chinese character list TRADITIONAL_CHINESE_CHARS
+ *         string array, simplified character list SIMPLIFIED_CHINESE_CHARS
+ *         string array, traditional Chinese character list TRADITIONAL_CHINESE_CHARS
  *         string array, simplified to traditional phrase correspondence table CHINESE_PHRASES_FROM_SIMPLIFIED_TO_TRADITIONAL
  *         string array, Traditional to Simplified phrase correspondence table CHINESE_PHRASES_FROM_TRADITIONAL_TO_SIMPLIFIED
  *         Method, simple to traditional cn2tw(original: string): string
@@ -16,8 +16,8 @@
  * <zh_cn>
  * 创建：2024年1月10日 07:02:57
  * 功能：提供以下内容，
- *      字符串，简体单字清单 SIMPLIFIED_CHINESE_CHARS
- *      字符串，繁体单字清单 TRADITIONAL_CHINESE_CHARS
+ *      字符串数组，简体单字清单 SIMPLIFIED_CHINESE_CHARS
+ *      字符串数组，繁体单字清单 TRADITIONAL_CHINESE_CHARS
  *      字符串数组，简转繁词组对应表 CHINESE_PHRASES_FROM_SIMPLIFIED_TO_TRADITIONAL
  *      字符串数组，繁转简词组对应表 CHINESE_PHRASES_FROM_TRADITIONAL_TO_SIMPLIFIED
  *      方法，简转繁 cn2tw(original: string): string
@@ -27,8 +27,8 @@
  * <zh_tw>
  * 創建：2024年1月10日 07:02:57
  * 功能：提供以下內容，
- *      字元串，簡體單字清單 SIMPLIFIED_CHINESE_CHARS
- *      字元串，繁體單字清單 TRADITIONAL_CHINESE_CHARS
+ *      字元串數組，簡體單字清單 SIMPLIFIED_CHINESE_CHARS
+ *      字元串數組，繁體單字清單 TRADITIONAL_CHINESE_CHARS
  *      字元串數組，簡轉繁片語對應錶 CHINESE_PHRASES_FROM_SIMPLIFIED_TO_TRADITIONAL
  *      字元串數組，繁轉簡片語對應錶 CHINESE_PHRASES_FROM_TRADITIONAL_TO_SIMPLIFIED
  *      方法，簡轉繁 cn2tw(original: string): string
